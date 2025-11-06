@@ -124,7 +124,7 @@ if (carouselWrapperFotos && prevBtnFoto && nextBtnFoto && carouselItemsFotos.len
   });
 }
 
-// Lógica de Animação de Entrada (Scroll Reveal)
+/* Lógica de Animação de Entrada (Scroll Reveal) - DESATIVADA TEMPORARIAMENTE PARA CORREÇÃO DE VISUALIZAÇÃO
 const elementsToAnimate = document.querySelectorAll(".beneficio, .card, .foto");
 
 const observer = new IntersectionObserver(entries => {
@@ -139,6 +139,7 @@ const observer = new IntersectionObserver(entries => {
 elementsToAnimate.forEach(element => {
   observer.observe(element);
 });
+*/
 
 // Lógica de Filtro do Cardápio
 const filtroBtns = document.querySelectorAll(".filtro-btn");
